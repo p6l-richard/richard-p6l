@@ -5,6 +5,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  LinksFunction,
 } from 'remix';
 import type { MetaFunction } from 'remix';
 import tailwind from './tailwind.css';
