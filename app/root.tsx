@@ -10,19 +10,17 @@ import type { MetaFunction } from 'remix';
 import tailwind from './tailwind.css';
 
 export const links: LinksFunction = () => [
-  {
-    rel: 'icon',
-    href: '/favicon.png',
-    type: 'image/png',
-  },
-  // prefetch an image into the browser cache that the user is likely to see
-  // as they interact with this page, perhaps they click a button to reveal in
-  // a summary/details element
-  {
-    rel: 'prefetch',
-    as: 'image',
-    href: '/img/bunny.jpg',
-  },
+  //  TODO: add images + logo
+  // {
+  //   rel: 'icon',
+  //   href: '/favicon.png',
+  //   type: 'image/png',
+  // },
+  // {
+  //   rel: 'prefetch',
+  //   as: 'image',
+  //   href: '/img/bunny.jpg',
+  // },
 
   { rel: 'stylesheet', href: tailwind },
 ];
